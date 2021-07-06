@@ -1,5 +1,5 @@
 import React from 'react';
-import './UsersPostsItem.css';
+import './usersPostsItem.css';
 
 const usersPostsItem = (props) => (
     <li>

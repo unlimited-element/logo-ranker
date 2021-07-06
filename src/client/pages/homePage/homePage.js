@@ -67,7 +67,7 @@ class HomePage extends Component { //export default
             return "Password must contain a number";
         } else if (!password.match(/[a-z]/)) {
             return "Password must contain a lowercase letter";
-        } else if (!password.match(/\@|\!|\#|\$|\%|\^/i)) {
+        } else if (!password.match(/@|!|#|$|%|^/i)) {
             return "Password must contain @, !, #, $, % or ^";
         } else if (!password.match(/[A-Z]/)) {
             return "Password must contain an uppercase letter";
