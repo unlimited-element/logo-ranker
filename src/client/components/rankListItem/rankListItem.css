@@ -1,0 +1,43 @@
+.content {
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid #052A3A;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.votes {
+    display: flex;
+    flex-direction: row;
+}
+
+.ups {
+    background: #30CE55;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+}
+
+.downs {
+    background: #E60120;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_1 {
+    margin-right: 10px;
+}

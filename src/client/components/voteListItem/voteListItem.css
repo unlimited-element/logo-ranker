@@ -1,0 +1,90 @@
+.btn1 {
+    background: #108B55;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30);
+    color:  black;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.btn2 {
+    background: #9B0012;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30);
+    color:  black;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.btn3 {
+    background: yellow;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30);
+    color:  black;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.btn1:hover,
+.btn1:active {
+    background: #30CE55;
+}
+
+.btn2:hover,
+.btn2:active {
+    background: #E60120;
+}
+
+.btn3:hover,
+.btn3:active {
+    background: orange;
+}
+
+.content {
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid #052A3A;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.votes {
+    display: flex;
+    flex-direction: row;
+}
+
+.ups {
+    background: #30CE55;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+}
+
+.downs {
+    background: #E60120;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_1 {
+    margin-right: 10px;
+}
