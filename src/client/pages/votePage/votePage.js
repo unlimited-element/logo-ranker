@@ -20,6 +20,7 @@ class VotePage extends Component { //export default
 
     castVoteFunc = (vote, index) => {
         let contentId = this.state.content_toVote[index]._id;
+        console.log(contentId);
         let list = this.state.toVote_StateArray;
         list[index] = vote;
         this.setState({toVote_StateArray: list});
