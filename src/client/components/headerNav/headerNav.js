@@ -5,7 +5,7 @@ import "./headerNav.css";
 const headerNav = (props) => (
     <div className="navHead_container">
         <header className="header">
-            <h1 className="title">Ranker</h1>
+            <h1 className="title">RankIt</h1>
         </header>
         <nav className="navbar">
             <ul>

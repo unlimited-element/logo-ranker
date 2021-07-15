@@ -250,10 +250,12 @@ class HomePage extends Component { //export default
 
                 <div className="content_container">
                     <div className="title_and_regLogin_btns">
-                        {!this.context.isLoggedIn &&
+                        {
+                          !this.context.isLoggedIn &&
                             <h1 className="homePage_title">Just A Simple React App</h1>
                         }
-                        {!this.context.isLoggedIn &&
+                        {
+                          !this.context.isLoggedIn &&
                             <div className="reg_login_btns">
                                 <button id="reg_btn" onClick={this.toggleRegister}>Register</button>
                                 <button id="login_btn" onClick={this.toggleLogin}>Login</button>
@@ -262,7 +264,8 @@ class HomePage extends Component { //export default
                         }
                     </div>
 
-                    {this.context.isLoggedIn &&
+                    {
+                      this.context.isLoggedIn &&
                         <div id="profile_header">
                             <div id="profile_creds">{"Name: " + this.context.usersName + ", Email: " + this.context.usersEmail + ", Handle: " + this.context.usersHandle}</div>
                             <button id="logout_btn" onClick={this.logout}>Logout</button>

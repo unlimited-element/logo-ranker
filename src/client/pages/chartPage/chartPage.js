@@ -19,7 +19,7 @@ class ChartPage extends Component { //export default
 
     //get ranked songs from server
     content_rankList = () => {
-        console.log("Trying to get top songs");
+        console.log("Trying to get top logos");
 
         fetch(`http://localhost:8080/getRankedContent${this.context.timesVoted}`,{ // { credentials: 'include' } if using cookies and such
             method: 'GET',
