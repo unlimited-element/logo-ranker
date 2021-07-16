@@ -3,7 +3,7 @@ import AuthContext from "../../context/context.js";
 import "./submitPage.css";
 
 class SubmitPage extends Component {
-    static contextType = AuthContext;
+    // static contextType = AuthContext;
 
     constructor() {
         super();

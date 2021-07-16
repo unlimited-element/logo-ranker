@@ -4,7 +4,7 @@ import AuthContext from "../../context/context.js";
 import './homePage.css';
 
 class HomePage extends Component { //export default
-    static contextType = AuthContext;
+    // static contextType = AuthContext;
 
     constructor() {
         super();
